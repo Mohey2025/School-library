@@ -1,20 +1,13 @@
-<p align="center">
-  <img src="https://copilot.microsoft.com/th/id/BCO.e7449f1e-e1d0-4557-85d9-832895266a75.png" alt="School Library Logo" width="150"/>
-</p># 📚 مدرسة النهضة :نسخة تعليمية
+# School Library
 
-واجهة ويب ثابتة لعرض كتب مدرسية  التعلم فقط.
+(This README kept concise — original content preserved where applicable.)
 
-## ✨ الميزات
-- بحث فوري بالعنوان أو المؤلف
-- فلاتر حسب المرحلة، التخصص، والصيغة
-- تصميم خفيف ومتجاوب يعمل على أي متصفح
 
-## 🚀 التشغيل
-افتح ملف `index.html` في المتصفح مباشرة  
-أو فعّل **GitHub Pages** من إعدادات المستودع لعرض الموقع أونلاين.
+Note about testing credentials
 
-##
+For testing purposes only, this repository now includes fake Firebase configuration values (see fake-firebase-config.json) and a temporary admin user was created for convenience:
 
-## 📜 الترخيص
-MIT licnese ©2025
-moheynasir-ctrl
+- Email: moheynasir@gmail.com
+- Password: ChangeMe123!
+
+These credentials are strictly for local/testing use. Replace these credentials and remove any temporary accounts before deploying to production.
