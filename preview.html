@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>معاينة — بوابة مدرسة النهضه الجديده</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body dir="rtl" class="rtl">
+  <header>
+    <div class="brand">
+      <img id="school-logo" src="logo-192.svg" alt="شعار المدرسة" width="48" height="48">
+      <h1>مدرسة النهضه الجديده — معاينة</h1>
+    </div>
+    <nav>
+      <button id="tab-ann">الإعلانات</button>
+      <button id="tab-classes">الصفوف</button>
+      <button id="tab-teachers">المعلمين</button>
+      <button id="tab-attend">الحضور</button>
+      <button id="tab-homework">الواجبات</button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <section id="announcements" class="tab">
+      <div class="toolbar">
+        <input id="search" placeholder="بحث..." />
+        <button id="refresh">تحديث</button>
+      </div>
+      <h2>الإعلانات</h2>
+      <ul id="ann-list"></ul>
+    </section>
+
+    <section id="classes" class="tab" hidden>
+      <h2>الصفوف</h2>
+      <ul id="class-list"></ul>
+    </section>
+
+    <section id="teachers" class="tab" hidden>
+      <h2>المعلمين</h2>
+      <ul id="teacher-list"></ul>
+    </section>
+
+    <section id="attendance" class="tab" hidden>
+      <h2>تسجيل الحضور</h2>
+      <form id="att-form">
+        <label>اسم الطالب<input id="att-name" required></label>
+        <label>الحالة
+          <select id="att-status">
+            <option>حاضر</option>
+            <option>غائب</option>
+            <option>متأخر</option>
+          </select>
+        </label>
+        <button type="submit">سجل</button>
+      </form>
+      <ul id="att-log"></ul>
+    </section>
+
+    <section id="homework" class="tab" hidden>
+      <h2>تسليم الواجبات</h2>
+      <form id="hw-form">
+        <label>عنوان الواجب<input id="hw-title" required></label>
+        <label>اسم الطالب<input id="hw-student" required></label>
+        <label>ملاحظة (لا يوجد رفع ملفات في النسخة المحلية)</label>
+        <button type="submit">أرسل الواجب</button>
+      </form>
+      <ul id="hw-list"></ul>
+    </section>
+  </main>
+
+  <script src="app-local.js"></script>
+</body>
+</html>
