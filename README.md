@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://copilot.microsoft.com/th/id/BCO.e7449f1e-e1d0-4557-85d9-832895266a75.png" alt="School Library Logo" width="150"/>
-</p># 📚 المكتبة المدرسية - نسخة تعليمية
+</p># 📚 مدرسة النهضة :نسخة تعليمية
 
 واجهة ويب ثابتة لعرض كتب مدرسية  التعلم فقط.
 
